@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "namestyle",
+  "version": "${version}",
+  "name": "NameStyle",
+  "description": "Client-side name styler: gradients, rainbow, animations, icons and a full in-game editor. Only you see it.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.namestyle.NameStyleMod"] },
+  "mixins": ["namestyle.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
